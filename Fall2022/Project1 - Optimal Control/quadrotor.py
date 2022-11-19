@@ -62,7 +62,7 @@ def simulate(z0, controller, horizon_length, disturbance = False):
 
     Output:
     t[time_horizon+1] contains the simulation time
-    z[4, time_horizon+1] and u[2, time_horizon] containing the time evolution of states and control
+    z[6, time_horizon+1] and u[2, time_horizon] containing the time evolution of states and control
     """
     
     t = np.zeros([horizon_length+1,])
